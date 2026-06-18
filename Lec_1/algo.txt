@@ -1,0 +1,7 @@
+
+
+ALGORITHM -> a series of step to perform a given task
+
+FLOWCHART -> it is diagrammatic representation of ALGORITHM
+
+PSEUDOCODE -> Write ALGORITHM in Human readable language like english
