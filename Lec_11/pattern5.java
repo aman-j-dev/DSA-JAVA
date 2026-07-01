@@ -15,5 +15,6 @@ public class pattern5 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

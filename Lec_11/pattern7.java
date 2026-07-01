@@ -1,18 +1,20 @@
 package REPO.DSA.JAVA.Lec_11;
 import java.util.Scanner;
-public class pattern1 {
+public class pattern7 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
+        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
-        for(int i =1 ; i <= n ; i++){
-            for(int j = 1 ; j <= n ; j++){
+
+        for(int i = 1 ; i <= n ; i++){
+            for(int k =2 ; k <= i ; k++){
+                System.out.print("  ");
+            }
+            for(int j = 1 ; j <= () ; j++){
                 System.out.print("* ");
             }
             System.out.println();
-        }       
+        }
         sc.close();
     }
-    
 }
