@@ -1,3 +1,7 @@
+// * * * * * * *
+//   * * * * *
+//     * * *
+//       *
 package REPO.DSA.JAVA.Lec_11;
 import java.util.Scanner;
 public class pattern7 {
@@ -10,7 +14,7 @@ public class pattern7 {
             for(int k =2 ; k <= i ; k++){
                 System.out.print("  ");
             }
-            for(int j = 1 ; j <= () ; j++){
+            for(int j = 1 ; j <= (n*2)-((i*2)-1) ; j++){
                 System.out.print("* ");
             }
             System.out.println();
