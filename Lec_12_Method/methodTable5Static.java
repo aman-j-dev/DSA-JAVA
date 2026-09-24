@@ -1,4 +1,4 @@
-package REPO.DSA.JAVA.Lec_12;
+package REPO.DSA.JAVA.Lec_12_Method;
 
 public class methodTable5Static {
     public static void table(int num){
@@ -10,3 +10,6 @@ public class methodTable5Static {
         table(5);
     }
 }
+
+
+// if method is static , then theres isnt any need of creating object
