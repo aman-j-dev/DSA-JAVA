@@ -1,7 +1,7 @@
 package REPO.DSA.JAVA.Lec_12_Method;
 import java.util.Scanner;
 
-public class sum {
+public class methodOverloadingSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Numbers : ");
@@ -20,5 +20,11 @@ public class sum {
     }
     public static float SuM(float a , float b , float c){
         return (a+b+c);
+
+        
+    // public static int SuM(float a , float b){
+    //     return (a+b);
+    // Above wont work , changing return type not allow method overloading
+        
     }
 }
